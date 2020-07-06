@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/zero"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="80"
+        android:background="#C5A0B0"
+        android:gravity="center"
+        android:text="@string/_0"
+        android:textColor="#123456"
+        android:textSize="100sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Addition"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_margin="5sp"
+            android:layout_weight="10"
+            android:background="#52AA98"
+            android:text="+"
+            android:textColor="#1C1C1B"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/Subtraction"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_margin="5sp"
+            android:layout_weight="10"
+            android:background="#3E8174"
+            android:text="-"
+            android:textColor="#1C1C1B"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/Reset"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5sp"
+            android:layout_weight="10"
+            android:background="#0EC5A0"
+            android:text="0"
+            android:textColor="#1C1C1B"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/ToastMessage"
+            android:layout_width="110sp"
+            android:layout_height="100sp"
+            android:layout_margin="5sp"
+            android:layout_weight="10"
+            android:background="#88A39D"
+            android:text="T"
+            android:textColor="#1C1C1B"
+            android:textSize="50sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
